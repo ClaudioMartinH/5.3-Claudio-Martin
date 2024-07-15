@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="./itacademy.png" alt="Project logo"></a>
 </p>
 
-<h3  align="center"><span style="color: #FF000">Bases de datos NoSQL con MongoDB</span></h3>
+<h3  align="center"><span style="color: #FF000">Entrega 5.3 <br>Bases de datos NoSQL con MongoDB</span></h3>
 
 <div align="center">
 
