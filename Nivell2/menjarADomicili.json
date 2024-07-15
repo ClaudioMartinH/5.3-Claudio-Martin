@@ -1,0 +1,133 @@
+{
+  "clients": [
+    {
+      "id_client": "client001",
+      "name": "Juan",
+      "surname": "Alonso",
+      "address": {
+        "street": "Valencia",
+        "number": 34
+      },
+      "postal_code": 18015,
+      "city": "Barcelona",
+      "province": "Barcelona",
+      "phone_number": 654789321,
+      "orders_made": [
+        "order001"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id_product": "product001",
+      "category": "Pizza",
+      "name": "Pizza Margarita (Thin dought)",
+      "description": "Our most classic pizza, simple and yummy: dough, cheese, tomato and basil",
+      "image": "margarita.jpg",
+      "prize": 8
+    },
+    {
+      "id_product": "product002",
+      "category": "Pizza",
+      "name": "Pizza BBQ (Normal dought)",
+      "description": "For bbq lovers, bbq sauce, beef, bacon, chicken and our dough",
+      "image": "bbqpizza.jpg",
+      "prize": 12
+    },
+    {
+      "id_product": "product003",
+      "category": "Hamburguer",
+      "name": "Cheese Hamburguer",
+      "description": "Our most classic hamburguer, beef patty with cheddar cheese, pickles and ketchup",
+      "image": "cheeseburguer.jpg",
+      "prize": 6
+    },
+    {
+      "id_product": "product004",
+      "category": "Hamburguer",
+      "name": "Double Hamburguer",
+      "description": "Double beef patty with lettuce, cheese, and pickles, with mostard and ketchup",
+      "image": "doubleburguer.jpg",
+      "prize": 8
+    },
+    {
+      "id_product": "product005",
+      "category": "Drink",
+      "name": "Water",
+      "description": "0.50L Bezoya mineral water",
+      "image": "water.jpg",
+      "prize": 2
+    },
+    {
+      "id_product": "product006",
+      "category": "Drink",
+      "name": "Coke",
+      "description": "0.50L Coca-Cola bottle",
+      "image": "coke.jpg",
+      "prize": 2.5
+    }
+  ],
+  "orders": [
+    {
+      "id_order": "order001",
+      "order_time": "2024-06-26T21:15:25Z",
+      "order_type": "Delivery",
+      "delivered_by": "employee001",
+      "when_delivered": "2024-06-26T21:55:35Z",
+      "order_details": [
+        {
+          "product_id": "product001",
+          "quantity": 1
+        },
+        {
+          "product_id": "product002",
+          "quantity": 2
+        },
+        {
+          "product_id": "product003",
+          "quantity": 2
+        },
+        {
+          "product_id": "product004",
+          "quantity": 1
+        },
+        {
+          "product_id": "product005",
+          "quantity": 2
+        },
+        {
+          "product_id": "product006",
+          "quantity": 2
+        }
+      ],
+      "order_amount": 61,
+      "customer_info": "We don't have elevator!",
+      "order_status": "Delivered",
+      "order_payment": "Paid",
+      "shop": [
+        "shop001"
+      ]
+    }
+  ],
+  "employees": [
+    {
+      "id_employee": "employee001",
+      "name": "Silvia",
+      "surname": "Tuiran",
+      "nif": "49876543R",
+      "duty": "Delivery"
+    }
+  ],
+  "shops": [
+    {
+      "id_shop": "shop001",
+      "address": "Plaça Lesseps",
+      "postal_code": 10202,
+      "city": "Barcelona",
+      "province": "Barcelona",
+      "employees": [
+        "employee001"
+      ]
+    }
+  ]
+}
