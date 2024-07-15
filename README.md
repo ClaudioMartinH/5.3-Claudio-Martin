@@ -22,12 +22,12 @@
 
 ## 📝 Contenidos
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Acerca de](#about)
+- [Comenzando](#getting_started)
+- [Uso](#usage)
+- [Tecnologias usadas](#built_using)
+- [Autor](#authors)
+- [Fuentes](#acknowledgement)
 
 ---
 ## 🧐 Acerca de <a name = "about"></a>
@@ -52,7 +52,7 @@ Para el ***Nivel 2*** se nos pide diseñar la base de datos del Restaurante seg�
 ./Nivell2/enunciado.txt
 ```
 ---
-## 🏁 Comencemos <a name = "getting_started"></a>
+## 🏁 Comenzando <a name = "getting_started"></a>
 
 Para comenzar hay que bajarse el repositorio de mi [Github](https://github.com/ClaudioMartinH/5.3-Claudio-Martin) y clonarlo de manera local con el siguiente comando:
 
@@ -91,7 +91,8 @@ Para hacer lo pertinente con la base de datos del Restaurante habría que ejecut
 node --experimental-json-modules ./Nivell2/mad_loadData.mjs
 ```
 ---
-## ⛏️ Creado usando <a name = "built_using"></a>
+
+## ⛏️ Tecnologias usadas <a name = "built_using"></a>
 
 - ![MongoDB](https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white) - Database
 - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) - Server Environment
