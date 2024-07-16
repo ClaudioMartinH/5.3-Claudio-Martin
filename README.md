@@ -32,7 +32,7 @@
 ---
 ## 🧐 Acerca de <a name = "about"></a>
 
-En esta entrega, la tercera oparte del Sprint 5 del curso de Desarrollo Backend con NodeJS nos presenta las bases de datos no relacionales con MongoDB, se trata en primer lugar de diseñar las bases de datos de una Óptica y de un Restaurante.
+En esta entrega, la tercera parte del Sprint 5 del curso de Desarrollo Backend con NodeJS nos presenta las bases de datos no relacionales con MongoDB, se trata en primer lugar de diseñar las bases de datos de una Óptica y de un Restaurante.
 En el ***Nivel 1*** se nos pide diseñar la base de datos de la Óptica.
 En el **Ejercicio 1** se nos pide como diseñariamos la base de datos para la vista que se nos muestra en:
 

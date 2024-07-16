@@ -2,21 +2,45 @@ use("opticaCulAmpolla");
 
 db.getCollection("client").insertOne({
   name: "Client Name",
-  data: {
-    address: "Right Street, 123",
-    telephone: 67891235,
-    email: "email@email.com",
-    register_date: new Date("2023-09-23"),
+  address: {
+    street: "Right Street",
+    number: 123,
+    city: "City C",
+    postal_code: 24680,
+    country: "Country C",
   },
+  phone_number: "678921235",
+  email: "email@email.com",
+  registered_since: "2023-09-23",
+  recommended_by: null,
   last_shoppings: [
     {
       brand: "Rayban",
-      graduation_L: 2.3,
-      graduation_R: 2.0,
-      glass_color_L: null, 
-      glass_color_R: null, 
-      frame: "Metalic",
-      prize: 127.0
-    }
-  ]
-})
+      lens_graduation: {
+        left: 2.3,
+        right: 2.0,
+      },
+      lens_color: {
+        left: "Color1",
+        right: "Color2",
+      },
+      frame_type: "Metallic",
+      price: 127.0,
+      provider: {
+        name: "Googles Associated SL",
+        address: {
+          street: "Entença",
+          number: 45,
+          floor: 2,
+          door: "1",
+          city: "Barcelona",
+          postal_code: 12345,
+          country: "Spain",
+        },
+        phone_number: "654789321",
+        fax: "936669933",
+        nif: "B12345678",
+      },
+    },
+  ],
+});

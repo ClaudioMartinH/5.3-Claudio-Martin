@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id_user": "User001",
+      "username": "User 1",
+      "email": "user1@users.com",
+      "password": "password123",
+      "gender": "Male",
+      "birth_date": "1991-05-08",
+      "country": "Spain",
+      "postal_code": 12345,
+      "videos_published": [
+        "Video001"
+      ],
+      "channels": [
+        "Channel001"
+      ],
+      "subscribed_to": [
+        "Channel002"
+      ],
+      "videos_liked": [
+        {
+          "video_id": "Video001",
+          "when_liked": "2023-09-08T12:18:22Z"
+        }
+      ],
+      "videos_disliked": [
+        {
+          "video_id": "Video002",
+          "when_disliked": "2023-09-08T12:18:22Z"
+        }
+      ]
+    },
+    {
+      "id_user": "User002",
+      "username": "User 2",
+      "email": "user2@users.com",
+      "password": "password456",
+      "gender": "Female",
+      "birth_date": "1996-11-08",
+      "country": "Spain",
+      "postal_code": 14345,
+      "videos_published": [
+        "Video002"
+      ],
+      "channels": [
+        "Channel002"
+      ],
+      "subscribed_to": [
+        "Channel001"
+      ],
+      "videos_liked": [
+        {
+          "video_id": "Video002",
+          "when_liked": "2023-09-08T12:18:22Z"
+        }
+      ],
+      "videos_disliked": [
+        {
+          "video_id": "Video001",
+          "when_disliked": "2023-09-08T12:18:22Z"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id_video": "Video001",
+      "title": "Video 1",
+      "description": "My first video",
+      "size": "123457KB",
+      "duration": "00:03:32",
+      "file_name": "video001.mp4",
+      "thumbnail": "video001.png",
+      "times_played": 12345,
+      "likes": [
+        {
+          "user": "User001",
+          "when_liked": "2023-09-08T12:18:22Z"
+        }
+      ],
+      "dislikes": [
+        {
+          "user": "User002",
+          "when_disliked": "2023-09-08T12:18:22Z"
+        }
+      ],
+      "video_status": "Public",
+      "published_by": "User001",
+      "when_published": "2021-05-08T21:15:58Z",
+      "tags": [
+        "Holidays"
+      ]
+    },
+    {
+      "id_video": "Video002",
+      "title": "Video 2",
+      "description": "My second video",
+      "size": "123457KB",
+      "duration": "00:05:32",
+      "file_name": "video002.mp4",
+      "thumbnail": "video002.png",
+      "times_played": 43322,
+      "likes": [
+        {
+          "user": "User001",
+          "when_liked": "2023-09-08T12:18:22Z"
+        }
+      ],
+      "dislikes": [
+        {
+          "user": "User002",
+          "when_disliked": "2023-09-08T12:18:22Z"
+        }
+      ],
+      "video_status": "Public",
+      "published_by": "User002",
+      "when_published": "2022-11-08T11:15:58Z",
+      "tags": [
+        "Birthday"
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id_channel": "Channel001",
+      "name": "My channel",
+      "description": "My first channel",
+      "when_created": "2020-05-08T12:13:14Z",
+      "videos": [
+        "Video001"
+      ]
+    },
+    {
+      "id_channel": "Channel002",
+      "name": "My channel 2",
+      "description": "My second channel",
+      "when_created": "2021-05-08T12:13:14Z",
+      "videos": [
+        "Video002"
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "id_playlist": "Playlist001",
+      "name": "My playlist",
+      "created": "2022-06-08T15:23:38Z",
+      "playlist_status": "Private",
+      "videos": [
+        "Video002"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id_comment": "Comment001",
+      "video_id": "Video002",
+      "user_id": "User001",
+      "text_comment": "I really like your video",
+      "when_commented": "2023-05-07T22:15:36Z"
+    }
+  ]
+}
