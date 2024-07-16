@@ -40,10 +40,24 @@ En el **Ejercicio 1** se nos pide como diseñariamos la base de datos para la vi
 ./Nivell1/Exercici1/vista_client.jpg
 ```
 
+
+el archivo de la vista esta en esta direccion:
+
+```
+./Nivell1/Exercici1/vistaClient.js
+```
+
+
 En el **Ejercicio 2** se nos pide diseñar la base de datos que se ajuste a la vista mostrada en:
 
 ```
 ./Nivell1/Exercici2/vista_ulleres.jpg
+```
+
+el archivo de la vista esta en esta direccion:
+
+```
+./Nivell1/Exercici2/vistaUlleres.js
 ```
 
 Para el ***Nivel 2*** se nos pide diseñar la base de datos del Restaurante según las especificaciones del enunciado
@@ -107,5 +121,4 @@ node --experimental-json-modules ./Nivell2/mad_loadData.mjs
 
 - [MongoDB Crash Course - The Fullstack Junkie - Youtube](https://www.youtube.com/watch?v=2KlFHHXDuG8&list=PLuGe-XRWqbNQHhIJXq5UfkzCB98vvw1m7)
 - [NoSQL Cómo se modelan las BBDD no relacionales - Hola Mundo - Youtube](https://www.youtube.com/watch?v=Zdlude8l8w4)
-- References
 ---
